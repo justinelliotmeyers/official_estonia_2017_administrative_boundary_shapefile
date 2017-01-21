@@ -1,0 +1,39 @@
+Note! The use of administrative and settlement units data is not restricted but the reference to the data source (i.e. Estonian Land Board) and validity date (e.g. 26.01.2012) must be made!
+
+Source:http://geoportaal.maaamet.ee/eng/Maps-and-Data/Administrative-and-Settlement-Division-p312.html
+
+* Settlement type is coded by EHAK as follows:
+0 - county	
+5 - town without municipal status
+1 - rural municipality	
+6 - urban regions
+2 - rural municipality regions
+7 - township
+3 - village
+8 - hamlet
+4 - town	
+9 - region or other settlement without municipal status
+
+
+Table: Counties
+Attribute	Description
+MNIMI	County name
+MKOOD	County ID (EHAK
+
+Table: Municipalities
+Attribute	Description
+VNIMI	Municipality name
+VKOOD	Municipality ID (EHAK)
+MNIMI	County name
+MKOOD	County ID (EHAK)
+
+Table: Settlements
+Attribute	Description
+ANIMI	Settlements name
+NIMI	Settlement name with type
+TYYP*	Settlement type
+AKOOD	Settlement ID (EHAK)
+VNIMI	Municipality name
+VKOOD	Municipality ID (EHAK)
+MNIMI	County name
+MKOOD	County ID (EHAK)
